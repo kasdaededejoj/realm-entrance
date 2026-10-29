@@ -1,3 +1,5 @@
+[ChatGPT] Hosted private study: https://realm-entrance-study.cognoscene.chatgpt.site. Deployment succeeded; hosted gameplay and lag cause remain unverified. See HANDOVER.md.
+
 # Realm entrance status
 
 [ChatGPT] 2026-10-29

@@ -1,3 +1,8 @@
+## [ChatGPT] Private ChatGPT Site and lag investigation — 2026-10-29
+
+- Adam requested a ChatGPT-hosted version and reported lag. Deployed the existing visual prototype privately at https://realm-entrance-study.cognoscene.chatgpt.site; Sites deployment reported succeeded. Site source is in D:\000\realm-entrance-site and matches the prototype from db1ae71; Site source commit 3b55b02777e493e17ea4cd4801e6005c70276628.
+- No performance measurements collected. Continuous rendering, capped 1.5 pixel ratio, antialiasing and lighting are potential factors, not confirmed causes. Separate render performance from input latency and pointer-lock behavior. Hosted runtime/pointer-lock playthrough not yet verified.
+- The scene was hand-coded from the documented build brief, not created from a separate generative 3D prompt. No gameplay changes or B3 work in this task.
 # Realm entrance handover
 
 ## [ChatGPT] First 3D visual study — 2026-10-29

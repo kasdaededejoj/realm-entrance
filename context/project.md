@@ -1,3 +1,5 @@
+[ChatGPT] Adam requested public access; Sites reports the hosted study is public. Earlier private-status notes below are historical.
+
 [ChatGPT] Brightened the 3D study and lowered rendering resolution/disabled antialiasing after Adam reported poor visibility and low frame rate. Site updated; actual improvement requires review and measurement. See HANDOVER.md.
 
 [ChatGPT] Hosted private study: https://realm-entrance-study.cognoscene.chatgpt.site. Deployment succeeded; hosted gameplay and lag cause remain unverified. See HANDOVER.md.

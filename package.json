@@ -1,0 +1,30 @@
+{
+  "name": "realm-entrance",
+  "version": "1.0.0",
+  "description": "The separate home for The Realm's first-person 3D entrance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasdaededejoj/realm-entrance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kasdaededejoj/realm-entrance/issues"
+  },
+  "homepage": "https://github.com/kasdaededejoj/realm-entrance#readme",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

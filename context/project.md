@@ -1,3 +1,5 @@
+[ChatGPT] Planning before further work: see WORLD_PLAN.md. Adam selected an existing mysterious world for visitors to investigate; realm structure and other details remain open.
+
 [ChatGPT] Adam requested public access; Sites reports the hosted study is public. Earlier private-status notes below are historical.
 
 [ChatGPT] Brightened the 3D study and lowered rendering resolution/disabled antialiasing after Adam reported poor visibility and low frame rate. Site updated; actual improvement requires review and measurement. See HANDOVER.md.

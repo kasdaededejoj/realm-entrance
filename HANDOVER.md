@@ -1,3 +1,7 @@
+## [ChatGPT] World planning begins — 2026-10-29
+
+- Adam requested complete planning before proceeding, covering sound, 3D objects, story and realms. He selected an existing mysterious world that the visitor investigates as the story starting point.
+- Added WORLD_PLAN.md with confirmed directions, realm structure options, production disciplines, review gates and open decisions. Story details and realm structure remain open. No code or hosted site changes in this planning task.
 ## [ChatGPT] Site made public — 2026-10-29
 
 - At Adam's explicit request, changed the hosted study's access from private to public. Sites reported public access at https://realm-entrance-study.cognoscene.chatgpt.site. No code changed; anonymous browser access has not been independently tested.

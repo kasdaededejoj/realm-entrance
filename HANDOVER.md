@@ -1,3 +1,7 @@
+## [ChatGPT] Brightness and rendering-cost adjustment — 2026-10-29
+
+- Adam reported low frame rate and that the room was almost invisible except for the trail. Brightened ambient and point lights, architecture, floor and artifact. Lowered the pixel ratio cap from 1.5 to 1 and disabled antialiasing to reduce rendering cost, with a potential sharpness tradeoff.
+- Build passed. Private Site deployment succeeded, Site source commit 6f083345517955eec598c5110c75f6bf16fa2ed2. No frame-time measurements or hosted visual/playtest verification; actual speedup and readability await review. No connected encounter added.
 ## [ChatGPT] Private ChatGPT Site and lag investigation — 2026-10-29
 
 - Adam requested a ChatGPT-hosted version and reported lag. Deployed the existing visual prototype privately at https://realm-entrance-study.cognoscene.chatgpt.site; Sites deployment reported succeeded. Site source is in D:\000\realm-entrance-site and matches the prototype from db1ae71; Site source commit 3b55b02777e493e17ea4cd4801e6005c70276628.

@@ -6,13 +6,13 @@ const overlay = document.querySelector('#overlay');
 const error = document.querySelector('#error');
 let renderer;
 try {
-  renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer = new THREE.WebGLRenderer({ antialias: false });
 } catch {
   error.textContent = 'This browser could not start the 3D view. Try a desktop browser with WebGL enabled.';
   document.querySelector('#start').disabled = true;
   throw new Error('WebGL renderer unavailable');
 }
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1));
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 app.appendChild(renderer.domElement);
@@ -34,11 +34,11 @@ window.addEventListener('keydown', e => { if (e.code === 'KeyR') reset(); if (co
 window.addEventListener('keyup', e => keys.delete(e.code));
 window.addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
 
-scene.add(new THREE.HemisphereLight(0x77677e, 0x100b12, 1.2));
-const lamp = new THREE.PointLight(0xbc638c, 85, 16); lamp.position.set(0, 5, -2); scene.add(lamp);
-const backlight = new THREE.PointLight(0x526688, 55, 14); backlight.position.set(0, 4, -10); scene.add(backlight);
+scene.add(new THREE.HemisphereLight(0xc2b1c5, 0x514453, 2.1));
+const lamp = new THREE.PointLight(0xe1a5be, 130, 20); lamp.position.set(0, 5, -2); scene.add(lamp);
+const backlight = new THREE.PointLight(0x839bc3, 90, 18); backlight.position.set(0, 4, -10); scene.add(backlight);
 const material = (color, roughness = 1) => new THREE.MeshStandardMaterial({ color, roughness, flatShading: true });
-const stone = material(0x28232c), dark = material(0x17151d), floor = material(0x24202a), metal = material(0x685363, .75);
+const stone = material(0x514650), dark = material(0x302a34), floor = material(0x49404b), metal = material(0xb09aaa, .75);
 function box(w, h, d, x, y, z, mat) { const mesh = new THREE.Mesh(new THREE.BoxGeometry(w,h,d), mat); mesh.position.set(x,y,z); scene.add(mesh); return mesh; }
 box(20,.3,30,0,-.15,-1,floor); box(20,.4,30,0,8,-1,dark);
 box(.5,8,30,-8,4,-1,stone); box(.5,8,30,8,4,-1,stone); box(16,8,.5,0,4,10,stone);
